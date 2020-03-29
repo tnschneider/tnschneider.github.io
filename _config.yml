@@ -1,5 +1,5 @@
 layout: sidebar
-style: light
+style: dark
 
 plugins:
   - jekyll-octicons
@@ -17,28 +17,33 @@ defaults:
       layout: "post"
 
 projects:
-  sort_by: pushed
+  sort_by: stars
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 9
+  limit: 12
   exclude:
-    archived: false
+    archived: true
     forks: true
     projects:
-    # - repo-name
+     - zebra-test-page
+     - python-memoize
+     - nand2tetris
+     - puzzles
+     - tnschneider.github.io
+     
 
-# social_media:
+social_media:
+  linkedin: terry-schneider-281646b3
+  stackoverflow: 7925985
+  hackerrank: tnschneider
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
-  # hackerrank: your_username
   # instagram: your_username
   # keybase: your_username
-  # linkedin: your_username
   # mastodon: your_username
   # medium: your_username
-  # stackoverflow: your_user_id
   # telegram: your_username
   # twitter: your_username
   # unsplash: your_username
@@ -47,12 +52,30 @@ projects:
   # youtube: your_username
 
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  - name: .NET Core
+    web_url: https://dotnet.microsoft.com/
+    image_url: https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg
 
-  - name: Web design
+  - name: Xamarin
+    web_url: https://dotnet.microsoft.com/apps/xamarin
+    image_url: https://cdn.worldvectorlogo.com/logos/xamarin.svg
 
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: Vue
+    web_url: https://vuejs.org/
+    image_url: https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg
+
+  - name: Mongo DB
+    web_url: https://www.mongodb.com/
+    image_url: https://toppng.com/uploads/preview/mongo-db-design-mongodb-logo-mongodb-11562879783bwj2cknalk.png
+
+  - name: Angular
+    web_url: https://angular.io/
+    image_url: https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg
+
+  - name: Flutter
+    web_url: https://flutter.dev/
+    image_url: https://cdn.worldvectorlogo.com/logos/flutter-logo.svg
+
+  - name: OR-Tools
+    web_url: https://developers.google.com/optimization
+    image_url: https://i.imgur.com/9ZTrz8U.png
